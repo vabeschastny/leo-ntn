@@ -1,0 +1,15 @@
+{
+  "url": "https://www.itu.int/dms_pubrec/itu-r/rec/p/R-REC-P.681-11-201908-I!!PDF-E.pdf",
+  "sha256": "f90d03159634a9cf0f18d454271c4a6a4c124d5841fb99e0c2dc1719b5e5cafd",
+  "annex": 2,
+  "printed_pages": [
+    41,
+    42,
+    43,
+    45,
+    46,
+    47,
+    48
+  ],
+  "note": "Village 30-degree row labels in source are inconsistent; parameters assigned by the standard row order of Table 7, numbers unchanged. Wooded 45 is in Rural wooded section."
+}

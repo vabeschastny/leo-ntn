@@ -1,0 +1,59 @@
+{
+  "sensors": 50,
+  "sensor_counts": [
+    20,
+    40,
+    60,
+    80,
+    100,
+    120,
+    140,
+    160,
+    180,
+    200
+  ],
+  "completion_sensor_counts": [
+    50,
+    200
+  ],
+  "retry_intervals_s": [
+    null,
+    5,
+    "uniform_1_5"
+  ],
+  "scenarios": [
+    "urban",
+    "village",
+    "rural_wooded"
+  ],
+  "passes": 20,
+  "seed": 42,
+  "access_trigger_snr_db": 0,
+  "preamble_pool_size": 48,
+  "preamble_to_pusch_ratio": 2,
+  "repetitions": 64,
+  "preamble_gap_ms": 0,
+  "uplink_tx_eirp_dbm": 23,
+  "satellite_rx_gain_dbi": 30,
+  "frequency_hz": 2000000000,
+  "system_loss_db": 5.3,
+  "temperature_k": 290,
+  "bandwidth_hz": 15000,
+  "noise_figure_db": 6,
+  "altitude_km": 600,
+  "max_elevation_deg": 65,
+  "ra_period_ms": 2560,
+  "ra_offset_ms": 8,
+  "false_alarm_probability": 0.001,
+  "pusch_repetitions": 1,
+  "payload_offset_ms": 10,
+  "payload_duration_ms": 20,
+  "pusch_sinr_threshold_db": 0,
+  "receiver_processing_delay_ms": 0,
+  "power_preamble_tx_mw": 700,
+  "power_payload_tx_mw": 700,
+  "power_rx_mw": 150,
+  "power_idle_mw": 20,
+  "power_sleep_mw": 0.01,
+  "profile": "Conditional research model: common SNR trigger, oracle feedback, no MsgB/capture; fixed 5s or independent uniform [1,5]s backoff"
+}
